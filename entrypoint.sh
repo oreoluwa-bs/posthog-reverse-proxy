@@ -2,7 +2,7 @@
 set -e
 
 # Environment variables with defaults
-ALLOWED_DOMAINS=${ALLOWED_DOMAINS}
+ALLOWED_DOMAINS=${ALLOWED_DOMAINS:-oreoluwabs.com,notloudstudios.com}
 POSTHOG_CLOUD=${POSTHOG_CLOUD:-us}
 CACHE_STATIC_DAYS=${CACHE_STATIC_DAYS:-7}
 
